@@ -17,6 +17,50 @@ body{
     display: flex;
 }
 
+ul{
+	background-color: rgb(26, 32, 85);
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+}
+ li {
+    float: left;
+  }
+  
+ li a {
+	
+	float: left;
+	color: #f2f2f2;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 20px;
+	border-right:2px solid #bbb;
+  }
+  
+ li a:hover {
+	background-color: #ddd;
+	color: black;
+  }
+
+
+.header{
+	text-shadow: 4px 4px 8px rgb(98, 218, 51);
+	font-size: 3.2rem;
+	text-align: center;
+	font-style: italic;
+	color: rgb(5, 3, 4);
+	font-size: 18px;
+	padding: 50px;
+	text-align: center;	
+	background: url(header.jfif) ;
+
+}
+
 .text{
     margin-top: 45vh;
     flex: 1;
@@ -37,35 +81,46 @@ body{
 }
 
 .text h1{
-    font-size: 70px;
+    position: relative;
+    bottom:90px;
+    font-size: 80px;
     color: #fff;
     font-weight: 500;
+    text-shadow:2px 2px 6px skyblue;
+    font-style:italic;
 }
 
 .text p{
-    font-size: 20px;
+    position: relative;
+    bottom:90px;
+    text-shadow:2px 2px 6px skyblue;
+    font-style:italic;
+    font-size: 25px;
     color: #fff;
     font-weight: 300;
 }
 
 .text p a{
+
     color: #fff;
     font-weight: 700;
 }
 
 .form{
+    
     background: transparent;
     color: #fff;
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
-    width: 250px;
+    width: 350px;
 }
 
 input{
     margin: 20px 0;
     padding: 10px;
     background: transparent;
+    font-size: 24px;
     border: none;
     outline: none;
     color: #fff;

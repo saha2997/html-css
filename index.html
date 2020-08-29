@@ -8,16 +8,22 @@
 	<link rel="stylesheet" href="custom.css">
 </head>
 <body>
+	<div class="header">
+		<h1>TRAVELL AND TOURISM</h1>
+	</div>
 
 
 	<section class="hero_image">
-
 		<div class="nav">
-			<a href="#home">Home</a>
-			  <a href="#search">Search</a>
-			  <a href="#contact">Contact</a>
-			  <a href="login.html">Login</a>
-		  </div>	
+			<ul>
+		      <li><a href="#home">Home</a></li>
+			  <li> <a href="#search">Search</a></li>
+			  <li> <a href="#contact">Contact</a>
+			 
+			  </li>
+			  <li><a href="login.html">Login</a></li>
+			</ul>
+		</div>	
 
 		<ul id="myMenu">
 			<li><a href="#">Your_Place</a></li>
@@ -35,13 +41,14 @@
 		
 			<h1>THE PLACE YOU LOVE</h1>
 			<p>Name some place you want to visit and love to visit   </p>
-			<span></span>
-			
 
-
-			<form class="form_code"> 
-				<input class="post_code" type="text" placeholder="Enter your post code">
+			<form> 
 				<button type="submit">Find Place</button>
+				<select id="country" name="country">
+					<option value="au">Australia</option>
+					<option value="ca">Canada</option>
+					<option value="usa">USA</option>
+					</select>
 			</form>
 		</div>
 	</section>
